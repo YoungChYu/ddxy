@@ -1,0 +1,18 @@
+server:
+  port: 80
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.58.135:8848
+  application:
+    name: ddxyc-system
+  thymeleaf:
+    suffix: .html
+    cache: false
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 20000
+        readTimeout: 20000

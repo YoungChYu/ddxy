@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ddxyc-system:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ddxyc-system</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ddxyc-system-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="ddxyc-system:war exploded" />
+    </root>
+  </artifact>
+</component>
